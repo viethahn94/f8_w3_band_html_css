@@ -1,6 +1,6 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -8,16 +8,11 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*  1. Vị trí
-    2. Kích thước
-    3. Màu sắc
-    4. Kiểu dáng
-*/
 #main {}
 
 #header {
-    height: 46px;
-    background-color: black;
+    height: 46.5px;
+    background-color: #000;
 }
 
 #nav li {
@@ -25,10 +20,11 @@ html {
 }
 
 #nav li a {
-    color: white;
+    font-size: 15px;
+    color: #fff;
     text-decoration: none;
-    line-height: 46px;
-    padding: 0 25px;
+    line-height: 46.5px;
+    padding: 0 24px;
     display: inline-block;
 }
 
@@ -37,7 +33,7 @@ html {
     background-color: #ccc;
 }
 
-#nav .subnav {
+#nav .subnav li {
     display: none;
 }
 
